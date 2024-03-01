@@ -83,7 +83,7 @@ const Home = () => {
         </Modal.Header>
         <Modal.Body dangerouslySetInnerHTML={{ __html: selectedShow?.summary }} />
         <Modal.Footer>
-          <Button variant='secondary' onClick={handleCloseModal}>
+          <Button variant='primary' onClick={handleCloseModal}>
             Close
           </Button>
         </Modal.Footer>

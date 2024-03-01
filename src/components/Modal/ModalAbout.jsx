@@ -6,13 +6,14 @@ const ModalAbout = ({ show, handleClose }) => {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Acerca De</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {/* aqui va el codigo del modal */}
+          <p>Este es un Proyecto Educativo,  desarrollado  con la api 'https://api.tvmaze.com'</p>
+          <p>Desarrollador: Angel Arano</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant='secondary' onClick={handleClose}>
+          <Button variant='primary' onClick={handleClose}>
             Close
           </Button>
 
